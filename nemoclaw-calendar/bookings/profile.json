@@ -1,0 +1,11 @@
+{
+  "mode": "propose-only",
+  "n_slots": 3,
+  "default_duration_min": 30,
+  "fairness_rule": "split",
+  "share_level": "slots_and_day_shape",
+  "approval_threshold": "conditional",
+  "profile_yaml_path": "/sandbox/calendar/profile.yaml",
+  "saved_at": "2026-10-25T22:46Z"
+}
+
