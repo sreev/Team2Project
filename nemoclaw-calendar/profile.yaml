@@ -1,0 +1,24 @@
+timezone: America/Los_Angeles
+working_hours:
+  mon: ["09:00", "17:30"]
+  tue: ["09:00", "17:30"]
+  wed: ["09:00", "17:30"]
+  thu: ["09:00", "17:30"]
+  fri: ["09:00", "15:00"]
+focus_blocks:
+  - {day: mon, start: "09:00", end: "11:30", label: "deep work"}
+  - {day: wed, start: "09:00", end: "11:30", label: "deep work"}
+energy_patterns:
+  high_energy: ["09:00-12:00"]
+  low_energy: ["14:00-15:30"]
+defaults:
+  meeting_duration_minutes: 30
+  buffer_minutes: 10
+  max_meetings_per_day: 5
+blackout_periods:
+  - {start: "2026-06-20", end: "2026-06-28", reason: "vacation"}
+preferences:
+  prefer_back_to_back: false
+  no_meetings_after: "16:00"
+  fairness_rule: "split discomfort — alternate who takes the off-hours slot when timezones don't overlap nicely"
+
